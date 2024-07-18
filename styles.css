@@ -1,0 +1,38 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+}
+
+body {
+  background-color: var(--Light-gray);
+}
+
+img {
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+div {
+  margin-left: 38%;
+  margin-top: 60px;
+  text-align: center;
+  padding: 15px;
+  width: 250px;
+  height: 400px;
+  background-color: var(--White);
+  border-radius: 10px;
+}
+
+p {
+  margin: 15px;
+  color: var(--Grayish-blue);
+  font-family: "Outfit", sans-serif;
+  font-size: 12px;
+}
+
+h3 {
+  margin: 15px;
+  font-family: "Outfit", sans-serif;
+}
